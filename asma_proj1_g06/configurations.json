@@ -1,0 +1,66 @@
+{
+  "basicTest": {
+    "robots": [
+      {
+        "name": "robot1",
+        "capacity": 30
+      },
+      {
+        "name": "robot2",
+        "capacity": 20
+      },
+      {
+        "name": "robot3",
+        "capacity": 40
+      }
+    ],
+    "client": {
+      "initialPackages": [
+        {
+          "products": [
+            {
+              "name": "eggs",
+              "location": {
+                "x": 10,
+                "y": 10
+              },
+              "weight": 10
+            },
+            {
+              "name": "bacon",
+              "location": {
+                "x": 15,
+                "y": 20
+              },
+              "weight": 10
+            }
+          ],
+          "deadline": 70
+        },
+        {
+          "products": [
+            {
+              "name": "flour",
+              "location": {
+                "x": 10,
+                "y": 10
+              },
+              "weight": 10
+            },
+            {
+              "name": "sugar",
+              "location": {
+                "x": 5,
+                "y": 5
+              },
+              "weight": 10
+            }
+          ],
+          "deadline": 80
+        }
+      ],
+      "random": true,
+      "period": 10000
+    }
+  }
+}
